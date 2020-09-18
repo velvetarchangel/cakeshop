@@ -1,0 +1,234 @@
+@font-face {
+    font-family: "Countryside Regular";
+    src: url("CountrysideTwo-r9Wo.ttf")
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("SourceSansPro-Regular.ttf")
+}
+
+body {
+    background-color: #DAD8C3;
+}
+
+.card {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wrapper {
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header-image {
+    width: 100%;
+    height: 25%;
+}
+
+div#nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: maroon;
+    font-family: "Countryside Regular", sans-serif;
+    font-size: 20px;
+}
+
+div#nav-bar li  {
+    float: left;
+}
+
+div#nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div#about h1 {
+    display: block;
+    color: maroon;
+    font-family: "Countryside Regular", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+div#about p {
+    display: inline-block;
+    border: black;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+div#footer {
+    background-color: black;
+    opacity: 80%;
+}
+
+div#footer table {
+    margin: 0 auto;
+    width: 80%;
+}
+
+div#footer th {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+div#footer td {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+div#menu table{
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other */
+/*modified from https://www.w3schools.com/howto/howto_css_table_center.asp*/
+.column {
+    flex: 50%;
+    max-width: 32%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+/*modified from https://www.w3schools.com/howto/howto_css_table_center.asp*/
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/*/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/*modified from https://www.w3schools.com/howto/howto_css_table_center.asp*/
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.menu table {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu .table-header {
+    font-family: "Countryside Regular", sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+#menu th, td{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+}
+
+#menu th {
+    font-family: "Countryside Regular", sans-serif;
+}
+
+#menu td {
+    font-size: 25px;
+}
+
+#cake-menu .table-header {
+    font-family: "Countryside Regular", sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+#cake-menu th {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    font-family: "Countryside Regular", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+
+#cake-menu td {
+    font-family: "Countryside Regular", sans-serif;
+    font-size: 15px;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-right: black;
+}
+
+#cake-menu td h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+#cake-menu td p {
+    font-family: "Source Sans Pro", sans-serif;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+}
+
+.table-header {
+    font-family: "Countryside Regular", sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.menu-footer {
+    width: 100%;
+    height: 50%;
+}
+
+#confection-menu td h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#confection-menu td p {
+    font-family: "Source Sans Pro", sans-serif;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+}
+
+.price {
+    font-weight: bold;
+}
